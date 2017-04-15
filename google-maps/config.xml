@@ -36,4 +36,8 @@
   <plugin name="cordova-plugin-statusbar" spec="2.2.1"/>
   <plugin name="cordova-plugin-device" spec="1.1.4"/>
   <plugin name="cordova-plugin-splashscreen" spec="~4.0.1"/>
+  <plugin name="cordova-plugin-googlemaps" spec="https://github.com/mapsplugin/cordova-plugin-googlemaps">
+	       <variable name="API_KEY_FOR_ANDROID" value="AIzaSyDqF5moaU-YrQBeoi6QED1GzIKiGgYusFc" />
+	       <variable name="API_KEY_FOR_IOS" value="AIzaSyCO34NI214hdNAd1PbTaKqJhCFsZ6UYr6Q" />
+  </plugin>
 </widget>
