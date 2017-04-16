@@ -1,10 +1,17 @@
 <ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle left>
-      <ion-icon name="md-menu"></ion-icon>
-    </button>
+  <ion-toolbar>
+    <ion-buttons left>
+      <button ion-button menuToggle color="light" left>
+        <ion-icon name="md-menu"></ion-icon>
+      </button>
+    </ion-buttons>
     <ion-title>Q.I Cards</ion-title>
-  </ion-navbar>
+    <ion-buttons right>
+      <button ion-button color="light" right (tap)="presentModal()">
+        <ion-icon name="md-add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content padding class="homePage side-menu-gradient">
@@ -12,16 +19,4 @@
 </ion-content>
 
 <ion-footer no-shadow>
-  <ion-fab center bottom>
-    <button ion-fab color="dark"><ion-icon name="cube"></ion-icon></button>
-    <ion-fab-list side="top">
-      <button ion-fab color="danger"><ion-icon name="add"></ion-icon></button>
-    </ion-fab-list>
-    <ion-fab-list side="right">
-      <button ion-fab ><ion-icon name="settings"></ion-icon></button>
-    </ion-fab-list>
-    <ion-fab-list side="left">
-     <button ion-fab color="secondary"><ion-icon name="md-share"></ion-icon></button>
-    </ion-fab-list>
-  </ion-fab>
 </ion-footer>

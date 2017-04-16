@@ -20,6 +20,12 @@ $SIDEMENU_BOTTOM: #ff9068;
 //$SIDEMENU_BOTTOM: #c0d3e0;
 $SIDEMENU_TRANSPARENCY: rgba(255,255,255,0.4);
 
+.toolbar {
+  .toolbar-background {
+    background: transparent;
+    border-width: 0px !important;
+  }
+}
 
 .side-menu-gradient{
     background: -webkit-gradient(left top, $SIDEMENU_TOP, $SIDEMENU_BOTTOM);
